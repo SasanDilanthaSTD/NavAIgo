@@ -19,6 +19,14 @@ qt_add_qml_module(appNavAIgo
     URI NavAIgo
     QML_FILES
         Main.qml
+        SOURCES
+        SOURCES
+        SOURCES
+        SOURCES
+        SOURCES
+        SOURCES src/core/IAgent.h
+SOURCES src/core/AppController.cpp src/core/AppController.h src/core/IAgent.h src/core/PlannerAgent.cpp src/core/PlannerAgent.h src/network/GeminiApiClient.cpp src/network/GeminiApiClient.h src/main.cpp
+QML_FILES ui/Main.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
